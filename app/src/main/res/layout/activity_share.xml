@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Share"
+    android:visibility="visible"
+    android:id="@+id/Relative">
+
+
+    <ScrollView
+        android:id="@+id/line_up"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="180dp"
+        android:background="#181717" />
+
+    <TextView
+        android:id="@+id/Bus_name"
+        android:visibility="visible"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="NNNNNNNN"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display_cusname"
+        android:layout_width="400dp"
+        android:visibility="visible"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:text="fffffffffffff"
+        android:textSize="32dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Contacts"
+
+        android:id="@+id/contd"
+        android:visibility="visible"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tel_num"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:visibility="visible"
+        android:text="Mobile: 7083588718"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tel_email"
+        android:layout_width="225dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:visibility="visible"
+        android:text="Email: gaganpatil.!927@gamil.com" />
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:visibility="visible"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="33dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/line_2"
+        android:visibility="visible"
+        android:layout_marginTop="245dp"
+        android:background="#181717" />
+
+    <ScrollView
+        android:id="@+id/line_3"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="267dp"
+        android:background="#181717" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/line_6"
+        android:visibility="visible"
+        android:layout_marginTop="590dp"
+        android:background="#181717" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/line_5"
+        android:visibility="visible"
+        android:layout_marginTop="570dp"
+        android:background="#181717" />
+
+    <ScrollView
+        android:id="@+id/line_4"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="548dp"
+        android:background="#181717" />
+    <TextView
+        android:layout_height="20dp"
+        android:layout_width="150dp"
+        android:text="Name of items"
+        android:id="@+id/naam"
+        android:visibility="visible"
+        android:layout_marginTop="248dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/display_name_of_items"
+        android:layout_height="270dp"
+        android:visibility="visible"
+        android:layout_width="250dp"
+        android:text="Name of items"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+
+        android:layout_height="20dp"
+        android:layout_width="200dp"
+        android:text="Number of items"
+        android:id="@+id/naam2"
+        android:visibility="visible"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/display_total_numof_items"
+        android:layout_height="20dp"
+        android:layout_width="200dp"
+        android:text="Name of items"
+        android:visibility="visible"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="300dp"/>
+    <TextView
+
+        android:layout_height="20dp"
+        android:layout_width="200dp"
+        android:text="Total"
+        android:id="@+id/naam3"
+        android:visibility="visible"
+        android:layout_marginTop="572dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/display_total_acc"
+        android:layout_height="20dp"
+        android:layout_width="200dp"
+        android:text="Total"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_marginTop="572dp"
+        android:layout_marginLeft="300dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/share_scren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dip"
+        android:layout_marginTop="620dip"
+        android:visibility="visible"
+        android:drawableStart="@drawable/ic_reply_black_24dp"
+        android:text="share" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Rel"
+        android:visibility="visible"
+        >
+        <ImageView
+            android:layout_height="600dp"
+            android:layout_width="700dp"
+            android:id="@+id/view_screenshot"/>
+    </RelativeLayout>
+
+</RelativeLayout>
